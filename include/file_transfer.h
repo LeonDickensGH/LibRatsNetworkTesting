@@ -1,7 +1,7 @@
 #pragma once
 
 #include "socket.h"
-#include "json.hpp"
+#include <json.hpp>
 #include <string>
 #include <vector>
 #include <functional>
