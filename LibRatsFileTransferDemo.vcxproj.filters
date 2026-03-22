@@ -13,10 +13,150 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{fe3c7087-a4c3-4449-9447-6a1473da1b29}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LibRatsFileTransferDemo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bencode.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bittorrent.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_bitfield.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_choker.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_client.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_create_torrent.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_extension.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_file_storage.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_handshake.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_messages.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_network.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_peer_connection.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_piece_picker.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_resume_data.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_torrent.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_torrent_info.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bt_types.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\chained_send_buffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crc32.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dht.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\disk_io.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\file_transfer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fs.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gossipsub.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ice.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io_poller.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\krpc.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\librats.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\librats_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\librats_log_macros.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\logger.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mdns.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\network_utils.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\noise.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\os.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rats_export.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\receive_buffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sha1.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\socket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\storage.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stun.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threadmanager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tracker.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\turn.h">
+      <Filter>Include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

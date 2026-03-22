@@ -108,7 +108,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>rats.lib; ws2_32.lib; iphlpapi.lib; bcrypt.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>rats.lib;ws2_32.lib; iphlpapi.lib; bcrypt.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -125,11 +125,58 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>rats.lib; ws2_32.lib; iphlpapi.lib; bcrypt.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>rats.lib;ws2_32.lib; iphlpapi.lib; bcrypt.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LibRatsFileTransferDemo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bencode.h" />
+    <ClInclude Include="include\bittorrent.h" />
+    <ClInclude Include="include\bt_bitfield.h" />
+    <ClInclude Include="include\bt_choker.h" />
+    <ClInclude Include="include\bt_client.h" />
+    <ClInclude Include="include\bt_create_torrent.h" />
+    <ClInclude Include="include\bt_extension.h" />
+    <ClInclude Include="include\bt_file_storage.h" />
+    <ClInclude Include="include\bt_handshake.h" />
+    <ClInclude Include="include\bt_messages.h" />
+    <ClInclude Include="include\bt_network.h" />
+    <ClInclude Include="include\bt_peer_connection.h" />
+    <ClInclude Include="include\bt_piece_picker.h" />
+    <ClInclude Include="include\bt_resume_data.h" />
+    <ClInclude Include="include\bt_torrent.h" />
+    <ClInclude Include="include\bt_torrent_info.h" />
+    <ClInclude Include="include\bt_types.h" />
+    <ClInclude Include="include\chained_send_buffer.h" />
+    <ClInclude Include="include\crc32.h" />
+    <ClInclude Include="include\dht.h" />
+    <ClInclude Include="include\disk_io.h" />
+    <ClInclude Include="include\file_transfer.h" />
+    <ClInclude Include="include\fs.h" />
+    <ClInclude Include="include\gossipsub.h" />
+    <ClInclude Include="include\ice.h" />
+    <ClInclude Include="include\io_poller.h" />
+    <ClInclude Include="include\json.hpp" />
+    <ClInclude Include="include\krpc.h" />
+    <ClInclude Include="include\librats.h" />
+    <ClInclude Include="include\librats_c.h" />
+    <ClInclude Include="include\librats_log_macros.h" />
+    <ClInclude Include="include\logger.h" />
+    <ClInclude Include="include\mdns.h" />
+    <ClInclude Include="include\network_utils.h" />
+    <ClInclude Include="include\noise.h" />
+    <ClInclude Include="include\os.h" />
+    <ClInclude Include="include\rats_export.h" />
+    <ClInclude Include="include\receive_buffer.h" />
+    <ClInclude Include="include\sha1.h" />
+    <ClInclude Include="include\socket.h" />
+    <ClInclude Include="include\storage.h" />
+    <ClInclude Include="include\stun.h" />
+    <ClInclude Include="include\threadmanager.h" />
+    <ClInclude Include="include\tracker.h" />
+    <ClInclude Include="include\turn.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
